@@ -1,78 +1,11 @@
-/* Reset  from /* https://piccalil.li/blog/a-modern-css-reset/ */
+
  @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Playfair+Display:ital@1&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100;1,300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100;1,300&display=swap');
+ @import url(reset.css);
+ @import url(footer.css);
+ @import url(nav.css);
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
 
-/* Reset margins */
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-p,
-figure,
-picture {
-    margin: 0; 
-}
-
-/* set up the body */
-body {
-    line-height: 1.5;
-    min-height: 100vh;
-    font-family: "Roboto",Arial, Helvetica, sans-serif ;
-    
-}
-
-/* make images easier to work with */
-img,
-picutre {
-    max-width: 100%;
-    display: block;
-}
-
-/* make form elements easier to work with */
-input,
-button,
-textarea,
-select {
-    font: inherit;
-}
-
-a{
-    text-decoration: none;
-}
-
-/* remove animations for people who've turned them off */
-@media (prefers-reduced-motion: reduce) {  
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-
-.navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 2em;
-}
-
-#image{
-  background-image: url(/assets/84183_214335_grey_search.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 4%;
-}
 
 .container {
     display: grid;
@@ -113,9 +46,7 @@ a{
     line-height: 1.5;
   }
 
-  span{
-    font-weight:700 ;
-  }
+
   
   article blockquote {
     font-style: italic;
@@ -190,16 +121,7 @@ a{
     margin-bottom: 10px;
   }
   
-  /* Footer */
-  footer {
-    grid-area: footer;
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
-    font-size: 14px;
-    color: #71787f;
-  }
-
+ 
   .button{
  display: flex;
  justify-content: flex-start;

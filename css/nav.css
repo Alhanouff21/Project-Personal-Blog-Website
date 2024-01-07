@@ -1,0 +1,12 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#image{
+  background-image: url(/assets/84183_214335_grey_search.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 4%;
+}
