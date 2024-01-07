@@ -82,14 +82,14 @@ a{
                          "footer footer footer";
   }
   
-  /* Header Styles */
+  /* Heade */
   header {
     grid-area: header;
     padding: 20px;
     text-align: left;
   }
   
-  /* Main Content Styles */
+  /* Main */
   main {
     grid-area: main;
     display: flex;
@@ -121,8 +121,7 @@ a{
     font-style: italic;
     margin: 20px 0;
     padding: 10px;
-    border-left: 4px solid #ccc;
-    background-color: #f9f9f9;
+    border-left: 4px solid #d1d1d1;
   }
   
   article blockquote p {
@@ -141,7 +140,6 @@ a{
   
   article figcaption {
     font-style: italic;
-    color: #777;
   }
   
   article h3 {
@@ -153,17 +151,16 @@ a{
     padding-left: 20px;
   }
   
-  /* Sidebar Styles */
+  /*Sidebar */
   aside {
     grid-area: sidebar;
-   
-    padding: 20px;
+    padding: 25px;
     font-size: 14px;
-    color: #777;
+    color: #d1d1d1;
   }
 
   .author-info{
-    background-color: #f2f2f2;
+    background-color: #71787f;
     padding: 10px;
   }
   
@@ -193,14 +190,14 @@ a{
     margin-bottom: 10px;
   }
   
-  /* Footer Styles */
+  /* Footer */
   footer {
     grid-area: footer;
     background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
     font-size: 14px;
-    color: #777;
+    color: #71787f;
   }
 
   .button{
@@ -213,14 +210,10 @@ a{
     padding: 10px 20px;
     border: none;
     border-radius: 15px;
-    background-color: #007bff;
+    background-color: cornflowerblue;
     color: #fff;
     cursor: pointer;
     
   }
-  .btn:hover{
-    background-color: #ccc;
-
-  }
-  
+ 
   
