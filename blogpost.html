@@ -3,23 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog Post</title>
+    <link rel="stylesheet" href="/css/post.css">
 </head>
 <body>
-    <h1>hello</h1>
-    <header></header>
-    <article>
-        <!-- Author Info
-Name
-Title
-Current Company/School
-Short Bio
-Avatar -->
-    </article>
- <section>
-    <!-- Twitter
-Facebook
-LinkedIn -->
- </section>
+    <nav class="navbar">
+        <h1><a href="subscribeform.html">Subscribe</a></h1>
+        <h1 ><a href="index.html">Blog Title</a></h1>
+        <h1 id="image"></h1>
+       </nav>
+
+       <div class="container">
+        <main>
+          <article>
+            <header>
+              <h2>The Fascinating World of Clouds.</h2>
+              <p>Published on <time>January 13, 2023</time> by <a href="#">OpenWeather</a></p>
+            </header>
+            <section class="section">
+              <p id="first">There can barely be any weather phenomenon more common, yet also more changeable than clouds. They constantly waft across the sky, sometimes blocking the sun, sometimes bringing rain, sleet and snow. </p>
+        
+              <blockquote>
+                <p>"There’s a bright spot in every dark cloud"</p>
+                <footer>- Bruce Beresford</footer>
+              </blockquote>
+    
+              <p>They seem to have their own moods and personalities. Weather watchers around the world are often transfixed by their variability.</p>
+    
+              <figure>
+                <img src="assets/clouds.jpg" alt="Clouds image">
+                <figcaption>Clouds</figcaption>
+              </figure>
+    
+              <h3>Formation of Clouds </h3>
+              <p>There are many types of clouds that are all generally formed in the same way
+             - normally the sun heats the surface of the earth, causing invisible water vapor to rise that eventually condenses into visible water droplets or crystals to form clouds.For this to happen, the rising air must be saturated, in other words, not be able to hold any more water in vapor form. Saturation can happen in two ways:  </p>
+
+             <ol>
+                <li>by increasing the water content of the air, usually through evaporation to a point where the air can hold no more water vapor.</li>
+                <li>most commonly, by cooling the air to the ‘dew point’, which is the point that the air can hold no more water causing condensation to happen. </li>
+              </ol>
+             
+    
+              <p>As the air rises, it expands in volume due to the lower atmospheric pressure. The energy used by this expansion causes the temperature to fall, and hence reach the dew point</p>
+              
+              <h2>Why are clouds white?</h2>
+              <p>Clouds are white, the sun is orange and the sky is blue for the same reason. Light coming from the sun is actually white, though as it enters the confines of the earth’s atmosphere, small particles separate the blue light from the pure white sunlight, causing a blue sky and orange sun. The sky is slightly less blue at the horizon as the sunlight travels further through the atmosphere, further scattering the light wavelengths, and enabling some to re-combine to form larger levels of white light.</p>
+              <p>However, the droplets of water are far larger in clouds, this means that all spectrums of sunlight are scattered almost equally, meaning that no separation occurs, and the pure white sunlight brightens the clouds. So next time you lookup into the clouds, imagine that you are actually looking at sunlight as it really is.</p>
+
+              <h2>Fire-Breathing Dragon</h2>
+              <figure>
+                <img src="assets/dragon cloud.jpeg" alt="Dragon Clouds image">
+                <figcaption>Dragon Clouds</figcaption>
+              </figure>
+              <p>Although the heating of the air is normally caused by gradual warming by the sun, other geographical factors can create a more dramatic heating effect - wildfires and volcanoes can create a heat source that causes the rapid formation of clouds known as pyrocumulus. If there is enough water vapor in the air, dramatic thunderstorms, pyrocumulonimbus, and lightning can happen. The anvil shaped pyrocumulonimbus clouds actually contain the smoke from the fires, and can reach five miles high. These storms can act as a ‘funnel’, and through an effect known as "pyroCb", can cause the previously earth-bound polluting particles to linger in the air, causing ill-effects to people and animals.</p>
+
+              <h2>Fallstreak Hole</h2>
+              <figure>
+                <img src="assets/Fallstreak hole.jpg" alt="Fallstreak clouds image">
+                <figcaption>Fallstreak clouds</figcaption>
+              </figure>
+              <p>This is a feature in a large circular or elliptical hole in a cirrocumulus or altocumulus cloud, and can be partially attributed to human behavior - namely flight.</p>
+              <p>As aircraft pass through clouds formed of supercooled water droplets that still exist as liquid water below 0C. These water droplets need a small particle to be able to freeze when the temperature goes below -40C. When an aircraft passes through the droplets, the air passing over the wing experiences an expansion and rapid drop in temperature. This drop in temperature is sometimes enough to trigger the supercooled water droplets to freeze, form a ribbon of ice crystals following the plane’s path, and then fall out of the cloud. As the ice falls, it has the effect of creating other crystals that also fall from the sky by a process known as the Bergeron Effect, creating holes in the cloud.</p>
+            </section>
+          </article>
+        </main>
+    
+        <aside>
+          <div class="author-info">
+            <h3>About</h3>
+            <p> OpenWeather provides weather data for any location on the globe using a proprietary ML-powerd hyperlocal forecasting model with resolution from 500 m to 2 km, globally. While we started as an ethical, non-profit project run by a team of people passionate in making high-quality climate insights more open to the world, these days we focus on complex, enterprise-grade commercial projects.
+
+            </p>
+          </div>
+    
+          <div class="archives">
+            <h3>Archives</h3>
+            <ul>
+              <li><a href="#">December 2023</a></li>
+              <li><a href="#">November 2023</a></li>
+              <li><a href="#">January 2023</a></li>
+              <li><a href="#">October 2023</a></li>
+              <li><a href="#">November 2020</a></li>
+              <li><a href="#">December 2019</a></li>
+            </ul>
+          </div>
+    
+          <div class="elsewhere">
+            <h3>Elsewhere</h3>
+            <ul>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="#">Instagram</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+
+      <div class="button">
+      <button class="btn">Older Post </button>
+      <button class="btn">Newer Post</button>
+      </div>
+
+    
+      <footer>
+        <p>Blog All rights reserved. content is from <a href="https://openweather.co.uk/blog/post/fascinating-world-clouds">openweather</a></p>
+      </footer>
 </body>
 </html>
